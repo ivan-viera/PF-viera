@@ -1,0 +1,36 @@
+img{
+    max-height:450px;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+#footer-line{
+   height: 4px;
+}
+body{
+ background-color: red;
+}
+#background-body{
+background-color: #F350C6;
+}
+#imagen{
+    height: 300px;
+    width: 500px;
+}
+#limpiezacutis{
+    object-fit: contain;
+
+
+}
+
+
+.imagenresponsive{
+width: 46vw;
+max-width: 1000px;
+min-width: 320px;
+
+}
+.imagen{
+    width: 100%;
+    object-fit: cover;
+
+}
