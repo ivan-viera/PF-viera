@@ -33,11 +33,13 @@ min-width: 320px;
     width: 100%;
     object-fit: cover;
 
+
 }
 #sobrenosotros{
     background-image: url(https://plus.unsplash.com/premium_photo-1661772484028-74016b213190?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGRvY3RvcmVzfGVufDB8MHwwfHx8MA%3D%3D);
     background-repeat: no-repeat;
      background-size: cover;  
+    
 }
 .sobrenosotros-img{
     max-width: 270px;
