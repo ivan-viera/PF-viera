@@ -59,51 +59,70 @@
 
 <article class="container bg-dark my-4 p-4">
     <div class="row">
-        <div class="col-6 "> <h2 class="text-light">CONTACTATE CON NOSOTROS</h2>
+
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6"> <h2 class="text-light">CONTACTATE CON NOSOTROS</h2>
+
             <p class="text-light fs-4">No dudes en ponerte en contacto con Mar Estetica para cualquier Tratamiento - centro de belleza para el cuerpo,
                  consulta o para discutir tu bienestar. Estamos aquí para brindar orientación y apoyo.</p>
              <a href="https://maps.app.goo.gl/5VnxyvAFZwNnEzMq5">Mazzini 1431, Glew, Provincia de Buenos Aires</a> <br>
             <a href="tel:1159891620">1159891620</a></div>
-        <div class="col-6 "> 
-            <form class="">
+
+        <div class="col-12 p-5 col-sm-12 col-md-6 col-lg-6"> 
+
+            <form >
                 <div class="text">
                     <h3 class="text-light">¿Tienes alguna pregunta?</h3>
                 </div>
-                <div class="inputs">
-                    <div class="input m-2" >
-                        <input type="text" placeholder="*Servicio" required id="srvc">
-                    </div>
-                    <div class="input m-2">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-6 inputs" >
+                  <select id="formulario" class="form-select" aria-label="Default select example">
+                    <option selected>servicio</option>
+                    <option value="1">depilacion laser</option>
+                    <option value="2">depilacion cera</option>
+                    <option value="3">limpieza de cutis</option>
+                  </select>
+                  </div>
+              <div class="row">
+                    <div class="col-12 input m-2">
                         <input type="text" required placeholder="*Nombre" id="name">
                     </div>
+                    <div class="col-3 form-check text-light">
+                      <label class=" form-check-label" for="check1">Hombre</label>
+                      <input class="form-check-input" id="check1" type="radio" name="sexo">
+
+                    </div>
+                    <div class="col-3 form-check text-light">
+                      <label class="form-check-label" for="check2">mujer</label>
+                      <input class="form-check-input" id="check2" type="radio" name="sexo">
+
+                    </div>
+                    <div class=" col-3 form-check text-light">
+                      <label class="form-check-label" for="check3">otro</label>
+                      <input class="form-check-input" id="check3" type="radio" name="sexo">
+
+                    </div>
+              </div>
+
                     <div class="input m-2">
                         <input type="email" required placeholder="*Correo electrónico" id="mail">
                     </div>
                     <div class="input m-2">
                         <input type="tel" required placeholder="*Teléfono" id="phone">
                     </div>
-    
+                   
+               <div class="row">
                     <input type="hidden" name="data-email" required>
-                     <input type="checkbox"> <h6 class="text-light"> Acepto </h6><a class="text-decoration-underline text-primary" href="politicadeprivacidad.html">Política y Privacidad</a></span><br>
-                    <button class="button p-2 m-2"type="submit">ENVIAR SOLICITUD</button>
+                   
+                     <input class="col-1" type="checkbox"> <h6 class="col-6 text-light"> Acepto terminos y condiciones</h6><a class="text-decoration-underline text-primary" href="politicadeprivacidad.html">Política y Privacidad</a></span><br>
+                    <button class="col-3 button p-2 m-2"type="submit">ENVIAR SOLICITUD</button>
+                  
+                  </div>
+
+                  </div>
                 </div>
             </form>
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
         </div>
-
-
-
-
-
     </div>
 
 
