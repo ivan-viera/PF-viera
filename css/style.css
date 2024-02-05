@@ -21,7 +21,12 @@ background-color: #F350C6;
 
 
 }
-
+.imagenshop{
+    min-width: 199px;
+    min-height: 199px;
+    max-width: 200px;
+    max-height: 200px;
+}
 
 .imagenresponsive{
 width: 46vw;
