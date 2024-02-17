@@ -1,0 +1,34 @@
+//images
+img{
+    max-height:450px;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+#imagen{
+    height: 300px;
+    width: 500px;
+}
+#limpiezacutis{
+    object-fit: contain;
+
+
+}
+.imagenshop{
+    min-width: 199px;
+    min-height: 199px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.imagenresponsive{
+width: 46vw;
+max-width: 1000px;
+min-width: 320px;
+
+}
+.imagen{
+    width: 100%;
+    object-fit: cover;
+
+
+}

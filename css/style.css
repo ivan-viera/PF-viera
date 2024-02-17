@@ -1,51 +1,99 @@
-img{
-    max-height:450px;
-    object-fit: cover;
-    filter: brightness(0.3);
-}
-#footer-line{
-   height: 4px;
-}
-body{
- background-color: red;
-}
-#background-body{
-background-color: #F350C6;
-}
-#imagen{
-    height: 300px;
-    width: 500px;
-}
-#limpiezacutis{
-    object-fit: contain;
-
-
-}
-.imagenshop{
-    min-width: 199px;
-    min-height: 199px;
-    max-width: 200px;
-    max-height: 200px;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: content-box;
 }
 
-.imagenresponsive{
-width: 46vw;
-max-width: 1000px;
-min-width: 320px;
+#logo {
+  width: 50px;
+  height: 50px;
+}
 
+img {
+  max-height: 450px;
+  object-fit: cover;
+  filter: brightness(0.3);
 }
-.imagen{
-    width: 100%;
-    object-fit: cover;
 
+.bg-body {
+  background-color: rgb(252, 192, 192);
+}
 
+.bg-article {
+  background-color: rgba(90, 67, 67, 0.44);
 }
-#sobrenosotros{
-    background-image: url(https://plus.unsplash.com/premium_photo-1661772484028-74016b213190?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGRvY3RvcmVzfGVufDB8MHwwfHx8MA%3D%3D);
-    background-repeat: no-repeat;
-     background-size: cover;  
-    
+
+.bg-footer {
+  background-color: rgb(138, 116, 116);
 }
-.sobrenosotros-img{
-    max-width: 270px;
+
+.bg-header {
+  background-color: rgb(138, 116, 116);
 }
+
+#footer-line {
+  height: 4px;
+}
+
+img {
+  max-height: 450px;
+  object-fit: cover;
+  filter: brightness(0.3);
+}
+
+#imagen {
+  height: 300px;
+  width: 500px;
+}
+
+#limpiezacutis {
+  object-fit: contain;
+}
+
+.imagenshop {
+  min-width: 199px;
+  min-height: 199px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.imagenresponsive {
+  width: 46vw;
+  max-width: 1000px;
+  min-width: 320px;
+}
+
+.imagen {
+  width: 100%;
+  object-fit: cover;
+}
+
+#limpiezacutis {
+  object-fit: contain;
+}
+
+.imagenshop {
+  min-width: 199px;
+  min-height: 199px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.imagenresponsive {
+  width: 46vw;
+  max-width: 1000px;
+  min-width: 320px;
+}
+
+.imagen {
+  width: 100%;
+  object-fit: cover;
+}
+
+#productos article img {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
