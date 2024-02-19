@@ -12,7 +12,8 @@
 
 img {
   max-height: 450px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   filter: brightness(0.3);
 }
 
@@ -30,34 +31,6 @@ img {
 
 .bg-header {
   background-color: rgb(138, 116, 116);
-}
-
-.d-flex {
-  display: flex;
-}
-
-.d-inline {
-  display: inline;
-}
-
-.d-block {
-  display: block;
-}
-
-.d-inline-block {
-  display: inline-block;
-}
-
-.d-grid {
-  display: grid;
-}
-
-.d-table {
-  display: table;
-}
-
-.d-inline-flex {
-  display: inline-flex;
 }
 
 #footer-line {
@@ -158,7 +131,8 @@ img {
 
 img {
   max-height: 450px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   filter: brightness(0.3);
 }
 
@@ -168,7 +142,8 @@ img {
 }
 
 #limpiezacutis {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .imagenshop {
@@ -335,26 +310,8 @@ h2 {
   color: #1877f2;
 }
 
-.phone {
-  color: #38453b;
-}
-
-.whatsapp {
-  color: #25d366;
-}
-
-.instagram {
-  color: #bc2a8d;
-}
-
-.facebook {
-  color: #1877f2;
-}
-
 #productos article img {
   width: 150px;
   height: 150px;
   margin: 5px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

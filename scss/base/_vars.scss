@@ -9,3 +9,12 @@ $color-1-form: #ff5733;
 $color-2-form: #d1480f;
 
 
+$display:(
+    "flex": flex,
+    "inline": inline,
+    "block": block,
+    "inline-block": inline-block,
+    "grid": grid,
+    "table": table,
+    "inline-flex" : inline-flex
+);

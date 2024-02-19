@@ -67,3 +67,104 @@
     background-color: $color-2-form;
   }
   
+  // Variables
+$primary-color: #333;
+$hover-scale: 1.2;
+$link-color: #007bff;
+$link-hover-color: #ff4500; // Color para el hover
+
+// Animaciones
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+// Mixins
+@mixin fadeInAnimation {
+    animation: fadeIn 1s ease forwards;
+}
+
+@mixin slideInAnimation {
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+@mixin linkStyle {
+    text-decoration: none;
+    color: $link-color;
+    margin: 10px;
+    display: inline-block;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale($hover-scale);
+        color: $link-hover-color;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+
+.container {
+  @include fadeInAnimation;
+}
+
+.social-links {
+  margin-top: 30px;
+  background-color: #fff;
+
+  a {
+      @include linkStyle;
+      @include slideInAnimation;
+  }
+  
+  i {
+      margin-right: 10px;
+  }
+  
+  .phone {
+      color: #38453b;
+  }
+  
+  .whatsapp {
+      color: #25d366;
+  }
+  
+  .instagram {
+      color: #bc2a8d;
+  }
+  
+  .facebook {
+      color: #1877f2;
+  }
+}
+.phone {
+  color: #38453b;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.instagram {
+  color: #bc2a8d;
+}
+
+.facebook {
+  color: #1877f2;
+}
