@@ -1,4 +1,9 @@
+
+
+
+
 .animated-link {
+  z-index: 9;
     color: #ffffff; /* Color inicial del enlace */
     text-decoration: none; /* Eliminar subrayado predeterminado */
     transition: all 0.3s ease; /* Animación de transición para todos los cambios */

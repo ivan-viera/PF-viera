@@ -1,0 +1,52 @@
+.styled-link {
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #223e4f;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .styled-link:hover {
+    background-color: #d1480f;
+    transform: translateY(-2px);
+  }
+  
+  .styled-link::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: -1;
+  }
+  
+  .styled-link:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .styled-link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #fff, transparent);
+    transition: all 0.5s ease;
+    z-index: -1;
+  }
+  
+  .styled-link:hover::after {
+    transform: translateX(-100%);
+  }
