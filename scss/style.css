@@ -33,6 +33,59 @@ img {
   background-color: rgb(138, 116, 116);
 }
 
+.d-flex {
+  display: flex;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-table {
+  display: table;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  to {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  animation: slideUp 0.3s forwards;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.card .card-title {
+  color: #333;
+  transition: color 0.3s;
+}
+.card .card-body {
+  transition: background-color 0.3s;
+}
+
 #footer-line {
   height: 4px;
 }
@@ -41,6 +94,22 @@ img {
   width: 10px;
   height: 10px;
   color: white;
+}
+
+.phone {
+  color: #38453b;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.instagram {
+  color: #bc2a8d;
+}
+
+.facebook {
+  color: #1877f2;
 }
 
 .styled-link {
@@ -307,6 +376,22 @@ h2 {
   color: #bc2a8d;
 }
 .social-links .facebook {
+  color: #1877f2;
+}
+
+.phone {
+  color: #38453b;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.instagram {
+  color: #bc2a8d;
+}
+
+.facebook {
   color: #1877f2;
 }
 

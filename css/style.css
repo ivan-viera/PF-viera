@@ -12,6 +12,7 @@
 
 img {
   max-height: 450px;
+  -o-object-fit: cover;
   object-fit: cover;
   filter: brightness(0.3);
 }
@@ -60,6 +61,34 @@ img {
   display: inline-flex;
 }
 
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  to {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  animation: slideUp 0.3s forwards;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.card .card-title {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.card .card-body {
+  transition: background-color 0.3s;
+}
+
 #footer-line {
   height: 4px;
 }
@@ -68,6 +97,22 @@ img {
   width: 10px;
   height: 10px;
   color: white;
+}
+
+.phone {
+  color: #38453b;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.instagram {
+  color: #bc2a8d;
+}
+
+.facebook {
+  color: #1877f2;
 }
 
 .styled-link {
@@ -158,6 +203,7 @@ img {
 
 img {
   max-height: 450px;
+  -o-object-fit: cover;
   object-fit: cover;
   filter: brightness(0.3);
 }
@@ -168,6 +214,7 @@ img {
 }
 
 #limpiezacutis {
+  -o-object-fit: contain;
   object-fit: contain;
 }
 
@@ -187,13 +234,16 @@ img {
   position: relative;
   overflow: hidden;
 }
+
 .contenedor-imagen .imagen-efecto {
   transition: transform 0.3s;
 }
+
 .contenedor-imagen .imagen-efecto:hover {
   transform: scale(1.1);
   filter: brightness(0.5);
 }
+
 .contenedor-imagen .texto-animado {
   position: absolute;
   top: 50%;
@@ -207,6 +257,7 @@ img {
   opacity: 0;
   transition: opacity 0.3s;
 }
+
 .contenedor-imagen:hover .texto-animado {
   opacity: 1;
 }
@@ -305,6 +356,7 @@ h2 {
   margin-top: 30px;
   background-color: #fff;
 }
+
 .social-links a {
   text-decoration: none;
   color: #007bff;
@@ -314,23 +366,29 @@ h2 {
   transition: transform 0.3s ease-in-out;
   animation: slideIn 0.5s ease-in-out forwards;
 }
+
 .social-links a:hover {
   transform: scale(1.2);
   color: #ff4500;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 .social-links i {
   margin-right: 10px;
 }
+
 .social-links .phone {
   color: #38453b;
 }
+
 .social-links .whatsapp {
   color: #25d366;
 }
+
 .social-links .instagram {
   color: #bc2a8d;
 }
+
 .social-links .facebook {
   color: #1877f2;
 }
@@ -355,6 +413,6 @@ h2 {
   width: 150px;
   height: 150px;
   margin: 5px;
-}
+} 
 
 /*# sourceMappingURL=style.css.map */

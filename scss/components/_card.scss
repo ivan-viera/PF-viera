@@ -1,0 +1,29 @@
+// Definir la animación
+@keyframes slideUp {
+    from {
+      transform: translateY(0);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    to {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  // Aplicar estilos a las tarjetas
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    &:hover {
+      animation: slideUp 0.3s forwards;
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    // Estilo para el título de la tarjeta
+    .card-title {
+      color: #333; // Color del texto del título
+      transition: color 0.3s;
+    }
+    // Estilo para el cuerpo de la tarjeta
+    .card-body {
+      transition: background-color 0.3s;
+    }
+  }
