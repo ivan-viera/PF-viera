@@ -11,7 +11,7 @@
 }
 
 img {
-  max-height: 450px;
+  max-height: 350px;
   -o-object-fit: cover;
   object-fit: cover;
   filter: brightness(0.3);
@@ -25,13 +25,7 @@ img {
   background-color: rgba(90, 67, 67, 0.44);
 }
 
-.bg-footer {
-  background-color: rgb(138, 116, 116);
-}
 
-.bg-header {
-  background-color: rgb(138, 116, 116);
-}
 
 .d-flex {
   display: flex;
@@ -45,21 +39,7 @@ img {
   display: block;
 }
 
-.d-inline-block {
-  display: inline-block;
-}
 
-.d-grid {
-  display: grid;
-}
-
-.d-table {
-  display: table;
-}
-
-.d-inline-flex {
-  display: inline-flex;
-}
 
 @keyframes slideUp {
   from {

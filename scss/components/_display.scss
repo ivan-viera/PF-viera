@@ -1,5 +1,0 @@
-@each $key, $value in $display{
-    .d-#{$key}{
-        display: $value;
-    }
-}

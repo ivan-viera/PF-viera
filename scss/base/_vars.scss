@@ -2,7 +2,7 @@ $colores: (
 body :rgb(252, 192, 192),
 article: rgba(90, 67, 67, 0.44),
 footer:rgb(138, 116, 116),
-header:rgb(138, 116, 116)
+
 );
 
 $color-1-form: #ff5733;
@@ -14,7 +14,5 @@ $display:(
     "inline": inline,
     "block": block,
     "inline-block": inline-block,
-    "grid": grid,
-    "table": table,
-    "inline-flex" : inline-flex
+  
 );

@@ -29,10 +29,6 @@ img {
   background-color: rgb(138, 116, 116);
 }
 
-.bg-header {
-  background-color: rgb(138, 116, 116);
-}
-
 .d-flex {
   display: flex;
 }
@@ -47,18 +43,6 @@ img {
 
 .d-inline-block {
   display: inline-block;
-}
-
-.d-grid {
-  display: grid;
-}
-
-.d-table {
-  display: table;
-}
-
-.d-inline-flex {
-  display: inline-flex;
 }
 
 @keyframes slideUp {
