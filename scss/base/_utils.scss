@@ -16,7 +16,6 @@ img{
 @each $key, $value in $colores{
     .bg-#{$key}{
         background-color: $value;
-
     }
 }
 //display
@@ -24,4 +23,8 @@ img{
     .d-#{$key}{
         display: $value;
     }
+}
+
+.tarjeta{
+    height: 400px;
 }

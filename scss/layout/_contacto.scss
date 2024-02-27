@@ -1,9 +1,9 @@
 .container-contacto {
-    background-color: #fff;
+    background-color: map-get($map: $colores, $key: contact );
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     animation: fadeIn 2.5s ease forwards;
   }
@@ -125,8 +125,9 @@ $link-hover-color: #ff4500; // Color para el hover
 }
 
 .social-links {
+  
   margin-top: 30px;
-  background-color: #fff;
+  
 
   a {
       @include linkStyle;

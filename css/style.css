@@ -16,16 +16,24 @@ img {
   filter: brightness(0.3);
 }
 
-.bg-body {
-  background-color: rgb(252, 192, 192);
+.bg-extras {
+  background-color: #FFCCCC;
+}
+
+.bg-bodyy {
+  background-color: #ffffff;
 }
 
 .bg-article {
-  background-color: rgba(90, 67, 67, 0.44);
+  background-color: #FFE4E1;
 }
 
-.bg-footer {
-  background-color: rgb(138, 116, 116);
+.bg-contact {
+  background-color: #f4d5fe;
+}
+
+.bg-con {
+  background-color: #98a995;
 }
 
 .d-flex {
@@ -42,6 +50,10 @@ img {
 
 .d-inline-block {
   display: inline-block;
+}
+
+.tarjeta {
+  height: 400px;
 }
 
 @keyframes slideUp {
@@ -69,8 +81,14 @@ img {
   transition: background-color 0.3s;
 }
 
+.tarjeta {
+  height: 400px;
+}
+
 #footer-line {
-  height: 4px;
+  color: #000;
+  background-color: #000;
+  height: 5px;
 }
 
 #icono {
@@ -248,11 +266,11 @@ img {
 }
 
 .container-contacto {
-  background-color: #fff;
+  background-color: #f4d5fe;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   animation: fadeIn 2.5s ease forwards;
 }
@@ -339,7 +357,6 @@ h2 {
 
 .social-links {
   margin-top: 30px;
-  background-color: #fff;
 }
 .social-links a {
   text-decoration: none;
