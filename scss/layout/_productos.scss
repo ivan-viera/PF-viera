@@ -1,12 +1,17 @@
-
-
-#productos{
-article{ 
-    img{
-width: 150px;
-height: 150px;
-margin: 5px;
-
-       }
-}
+.card-producto{
+   
+    .card{
+        overflow:visible;
+        max-width: 350px;
+        height: 600px;
+        .card-img-top{
+            max-width: 400px;
+            max-height: 300px;
+            object-fit:fill;
+            object-position: center;
+        }
+    }
+    .styled-link{
+       
+    }
 }

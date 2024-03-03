@@ -2,7 +2,7 @@
 img{
     max-height:450px;
     object-fit: cover;
-    filter: brightness(0.3);
+    filter: brightness(0.9);
 }
 #imagen{
     height: 300px;
@@ -10,8 +10,6 @@ img{
 }
 #limpiezacutis{
     object-fit: contain;
-
-
 }
 .imagenshop{
     min-width: 199px;
@@ -23,19 +21,16 @@ img{
 width: 500px;
 height: 500px;
 }
-
 .contenedor-imagen {
     position: relative;
     overflow: hidden;
-  
     .imagen-efecto {
       transition: transform 0.3s;
   
       &:hover {
-        transform: scale(1.1); filter: brightness(0.5);
+        transform: scale(1.1); filter: brightness(0.5);overflow:auto
       }
     }
-  
     .texto-animado {
       position: absolute;
       top: 50%;
@@ -49,22 +44,12 @@ height: 500px;
       opacity: 0;
       transition: opacity 0.3s;
     }
-  
     &:hover .texto-animado {
       opacity: 1;
     }
   }
-
-  
-   
- 
      .imgpresent{
-background-image: url(https://laserluz.com/blog/wp-content/uploads/2020/10/es-rentable-un-centro-de-estetica.png);
-object-fit: cover;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
 width: 100%;
 height: 500px;
-filter: brightness(0.3);
+filter: brightness(0.7);
      }

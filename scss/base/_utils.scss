@@ -3,15 +3,12 @@
     width: 50px;
     height: 50px;
 }
-
-
 //images
 img{
     max-height:450px;
     object-fit: cover;
     filter: brightness(0.3);
 }
-
 //colores
 @each $key, $value in $colores{
     .bg-#{$key}{
@@ -23,8 +20,4 @@ img{
     .d-#{$key}{
         display: $value;
     }
-}
-
-.tarjeta{
-    height: 400px;
 }

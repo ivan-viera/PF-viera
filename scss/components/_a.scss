@@ -1,22 +1,16 @@
-
-
-
-
 .animated-link {
   z-index: 9;
     color: #ffffff; /* Color inicial del enlace */
     text-decoration: none; /* Eliminar subrayado predeterminado */
     transition: all 0.3s ease; /* Animación de transición para todos los cambios */
     position: relative; /* Posición relativa para efecto de sombra */
-  }
-  
+  }  
   .animated-link:hover {
     color: #ff5733; /* Nuevo color cuando se pasa el cursor sobre el enlace */
     transform: scale(1.1); /* Escala al 110% */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
     opacity: 0.8; /* Opacidad del enlace */
   }
-  
   .animated-link::before {
     content: ''; /* Contenido generado antes del enlace */
     position: absolute; /* Posición absoluta */
@@ -29,7 +23,6 @@
     transform: scaleX(0); /* Escala X cero para comenzar sin ancho */
     transition: all 0.3s ease; /* Animación de transición */
   }
-  
   .animated-link:hover::before {
     visibility: visible; /* Hacer visible */
     transform: scaleX(1); /* Escala X completa */

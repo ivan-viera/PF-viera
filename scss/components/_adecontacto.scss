@@ -11,12 +11,10 @@
     overflow: hidden;
     transition: all 0.3s ease;
   }
-  
   .styled-link:hover {
-    background-color: #d1480f;
+    background-color: #9d6999;
     transform: translateY(-2px);
   }
-  
   .styled-link::before {
     content: '';
     position: absolute;
@@ -30,11 +28,9 @@
     transform: translate(-50%, -50%) scale(0);
     z-index: -1;
   }
-  
   .styled-link:hover::before {
     transform: translate(-50%, -50%) scale(1);
   }
-  
   .styled-link::after {
     content: '';
     position: absolute;
@@ -46,7 +42,6 @@
     transition: all 0.5s ease;
     z-index: -1;
   }
-  
   .styled-link:hover::after {
     transform: translateX(-100%);
   }
