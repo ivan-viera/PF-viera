@@ -222,6 +222,23 @@ img {
   height: 500px;
 }
 
+.topete {
+  height: 400px;
+}
+
+.card-body {
+  height: 245px;
+}
+
+.card-img-top {
+  height: 198px;
+}
+
+.tamañoimg {
+  height: 179px;
+  width: 271px;
+}
+
 .contenedor-imagen {
   position: relative;
   overflow: hidden;
